@@ -1,0 +1,38 @@
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src='./weather.js'>  </script>
+<link href = "./main_page.css" rel = "stylesheet" type = "text/css" > </style>
+<body>
+  <div class = "background-image">
+    <div class="header">
+    </div>
+    <div class="forecast hidden">
+    </div>
+    <div class="control-panel">
+      <div class="control-panel-instructions">
+        <h2>Look up weather for:
+        </h2>
+      </div>
+      <div class="">
+        <h3></h3>
+        <button onclick="locationLookup()">My location</button>
+
+      </div>
+      <div class="">
+        <h3></h3>
+        <button onclick="fetchLocation(35.674250 , 139.743028)">Tokyo</button>
+
+
+      </div>
+      <div class="">
+        <h3></h3>
+        <button onclick="fetchLocation(45.912613 , 126.544105)">Har Bin</button>
+
+      </div>
+    </div>
+  </div>
+
+  <div class = "loading hidden">
+    <img src = './loading_icon.gif'> </img>
+  </div>
+</body>

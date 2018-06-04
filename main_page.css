@@ -1,0 +1,88 @@
+body{
+  margin: 0px;
+}
+
+
+
+.clear{
+  background-image: url("Clear.jpeg");
+}
+.cloudy{
+  background-image: url("clouds.jpeg");
+}
+.flurries{
+  background-image: url("");
+}
+.rain{
+  background-image: url("");
+}
+.freezing-rain{
+  background-image: url("");
+}
+.sleet{
+  background-image: url("");
+}
+.snow{
+  background-image: url("");
+}
+.thunderstorms{
+  background-image: url("");
+}
+.carl{
+  background-image: url("haze.JPG");
+}
+.sunny{
+  background-image: url("");
+}
+.unknown{
+  background-image: url("");
+}
+.background-image{
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+}
+.loading{
+  width:300px;
+  height:300px;
+  margin:0 auto;
+  position:fixed;
+  left:50%;
+  top:50%;
+  margin-left:-150px;
+  margin-top:-150px;
+}
+.loading img{
+  width: 300;
+  height: 300;
+}
+
+
+
+
+
+.forecast{
+    font-size: 40px;
+    padding-left: 23%;
+    padding-top: 10%;
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-family: sans-serif;
+}
+
+
+.control-panel{
+  
+  font-size: 30px;
+  padding-left: 23%;
+  padding-top: 10%;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-family: sans-serif;
+}
+
+.hidden {
+  visibility: hidden;
+  display: none;
+}
